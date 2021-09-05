@@ -1,0 +1,189 @@
+body{
+    background-image: url(fotos/mapa_brasil.jpg);
+}
+h1{
+    text-align: center;
+    color: gold;
+    background: green;
+}
+h3{
+    text-align: center;
+    color: rgb(6, 10, 247);
+    text-transform: uppercase;
+}
+td{
+    text-align: center;
+    font-size: 16px;
+    margin: 25px;
+    background-color: rgb(238, 234, 234);
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+table{
+    border-spacing: 20px;
+}
+
+
+
+
+/*Formatando as céluas individualmente*/
+#l_1{
+    border-style: double;
+    border-radius: 15%;
+    padding: 15px;
+    box-shadow: 10px 10px rgb(96, 253, 96);
+} 
+#l_2{
+    border-style: dashed;
+    border-color:rgb(51, 31, 224);
+    box-shadow: 10px 10px rgb(96, 253, 96);
+}
+#l_3{
+    border-style:solid;
+    box-shadow: 10px 10px rgb(96, 253, 96);
+}
+#l_4{
+    border-style: solid;
+    padding: 15px;
+    border-width: 5px;
+    border-color: hotpink;
+    box-shadow: 10px 10px rgb(241, 139, 6);
+} 
+#l_5{
+    border-style:dotted;
+    border-color:rgb(245, 223, 31);
+    box-shadow: 10px 10px rgb(241, 139, 6);
+}
+#l_6{
+    border-style:solid;
+    border-radius:25%;
+    padding: 30px;
+    box-shadow: 10px 10px rgb(241, 139, 6);
+}
+#l_7{
+    border-style: solid;
+    border-radius: 15%;
+    padding: 15px;
+    border-color: lawngreen;
+    box-shadow: 10px 10px rgb(33, 136, 2);
+} 
+#l_8{
+    border-style: none;
+    box-shadow: 10px 10px rgb(255, 251, 0);
+}
+#l_9{
+    border-style:solid;
+    border-top: orchid;
+    box-shadow: 10px 10px rgb(255, 251, 0);
+}
+#l_10{
+    border-style:hidden;
+    padding: 15px;
+    border-width: 5px;
+    border-color: rgb(153, 22, 55);
+    box-shadow: 10px 10px rgb(255, 251, 0);
+} 
+#l_11{
+    border-style:dotted;
+    border-color:rgb(245, 223, 31);
+    border-width: medium;
+    box-shadow: 10px 10px rgb(33, 136, 2);
+}
+#l_12{
+    border-style:solid;
+    border-radius:25%;
+    padding: 30px;
+    border-top: mediumspringgreen;
+    box-shadow: 10px 10px rgb(33, 136, 2);
+}
+#l_13{
+    border-style: double;
+    border-radius: 10%;
+    padding: 15px;
+    box-shadow: 10px 10px rgb(96, 253, 96);
+} 
+#l_14{
+    border-style: groove;
+}
+#l_15{
+    border-style:solid;
+    box-shadow: 10px 10px rgb(112, 142, 240);
+}
+#l_16{
+    border-style: solid;
+    padding: 15px;
+    border-width: 25px;
+    border-color: rgb(248, 10, 177);
+    box-shadow: 10px 10px rgb(241, 139, 6);
+    
+} 
+#l_17{
+    border-style:solid;
+    border-color:#1fb1f5;
+    border-end-end-radius: 30px;
+    box-shadow: 10px 10px rgb(241, 139, 6);
+}
+#l_18{
+    border-style:solid;
+    padding: 40px;
+    border-end-start-radius: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 10px rgb(33, 136, 2);
+}
+#l_19{
+    border-style: solid;   
+    padding: 15px;
+    border-color: rgb(252, 227, 0);
+    border-top-width: 20px;
+    box-shadow: 10px 10px rgb(241, 139, 6);
+} 
+#l_20{
+    border-style:outset;
+    box-shadow: 10px 10px rgb(250, 253, 96);
+
+}
+#l_21{
+    border-style:inset;
+    border-width: 50%;
+    box-shadow: 10px 10px rgb(96, 253, 96);
+}
+#l_22{
+    border-style:dashed;
+    border-width: 5px;
+    border-color: rgb(153, 22, 55);
+    box-shadow: 10px 10px rgb(96, 253, 96);
+} 
+#l_23{
+    border-style:dotted;
+    border-color:rgb(245, 31, 85);
+    border-width: medium;
+    box-shadow: 10px 10px rgb(112, 142, 240);
+}
+#l_24{
+    border-style:solid;
+   
+    padding: 30px;
+    border-top: mediumspringgreen;
+}
+#l_25{
+    border-style: solid;
+    border-radius:50%;
+    padding: 20px;
+    box-shadow: 10px 10px rgb(96, 253, 96);
+} 
+#l_26{
+    border-style:solid;
+    border-color:rgba(35, 31, 245, 0,5);
+    border-width:60px;
+    border-block-start-color: lightcoral;
+    border-block-end-color: lightseagreen;
+}
+#l_27{
+    border-style:dotted;
+    border-radius:25%;
+    border-color: rgba(218, 201, 128, 0.849);
+    box-shadow: 10px 10px rgb(241, 139, 6);
+}

@@ -1,0 +1,111 @@
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*Criando a grid para o Layout*/
+#Grid_1{
+    display: grid;
+    grid-template-columns: 4fr  1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+header{
+    background-color: #ffe800;
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    background-color: #004195;
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+aside{
+    background-color: #ffe800;
+    grid-area: aside;
+}
+footer{
+    background-color: #ffe800;
+    grid-area: footer;
+}
+
+/* Estilização dos Elementos do header */
+#ImgHeader{
+    border-radius: 100%;
+    height: 97%;
+}
+h1{
+    color: #004195;
+    text-shadow: 1vw 0.5vw 1vw #004195;
+}
+button{
+    background-color:#004195;
+    color: white;
+    border:none;
+    font-size: 1vw;
+}
+input{
+    border-color: #004195;
+    color: #004195;
+    border-radius: 5%;
+    margin-right: 2px;
+}
+
+/* Estilização da Main */
+.FilhoMain{
+    width: 30%;
+    height: 90%;
+    border-radius: 5%;
+}
+.ImgMain{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+/*Estilizando o menu lateral - lista de cursos*/
+a{
+    text-decoration: none;
+    color: #004195;
+}
+li{
+    list-style: none;
+    background: #ffe800;
+    border: solid #004195;
+    text-transform: uppercase;
+    font: 3vh;
+    font-weight: bold;
+    margin-right: 2vw;
+    margin-bottom: 0.5vw;
+    padding: 0.5vw;
+    padding-left: 2vw;
+}
+li:hover{
+    background-color: #004195;
+    color: #ffe800;
+}
+a:hover{
+    color: #ffe800;
+}
+/*Estilizando o rodapé*/
+#Grid_2{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    color:#004195;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.ImgRedeSocial{
+    height: 70%;
+    width: 20%;
+}

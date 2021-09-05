@@ -1,0 +1,99 @@
+main{
+    width: 100%;
+    height:700px;
+    background-color: rgb(200, 199, 199);
+    border: none;
+    position: relative;
+}
+section:nth-of-type(1){
+    width: 97%;
+    height: 20%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.007), rgba(255, 0, 0, 0.308),rgba(0, 0, 0, 0.007));
+    border: none;
+    position: absolute;
+    top: 2%;
+    left: 1.5%;
+}
+section:nth-of-type(2){
+    width: 48%;
+    height: 73%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    position: absolute;
+    top: 24%;
+    left: 1.5%;
+}
+section:nth-of-type(3){
+    width: 48%;
+    height: 73%;
+    background-color: rgb(251, 0, 0);
+    border: none;
+    position: absolute;
+    top: 24%;
+    right: 1.5%;
+}
+h1{
+    font-size: 48px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: red;
+    text-shadow: rgb(0, 0, 0);
+}
+
+#corredor{
+    width: 45%;
+    position: absolute;
+    top: 24%;
+    left: 40%;
+    z-index: 1;
+    border-end-end-radius: 20% ;
+}
+#bebida{
+    width: 35%;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    z-index: 2;
+    border-end-start-radius: 15%;
+}
+#time{
+    width: 250px;
+    height: 239px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    z-index: 3;
+}
+
+/*terceira seccao*/
+
+h2{
+    position: absolute;
+    left: 5px;
+    color: rgb(2, 2, 2);
+    text-transform:uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    text-align: center;
+}
+#atleta{
+    border-radius: 100%;
+    position: absolute;
+    left: 18%;
+    top: 50px;
+    opacity: 0.4;
+}
+p{
+    position: absolute;
+    left:5px;
+    top:80px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 5%;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
